@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <Label layoutX="101.0" layoutY="161.0" prefHeight="21.0" prefWidth="57.000099999997474" text="Nombre:">
+      <font>
+        <Font name="Cambria Math" size="14.0" fx:id="x1" />
+      </font>
+    </Label>
+    <TextField layoutX="159.0" layoutY="161.0" prefWidth="240.0" />
+    <Label font="$x1" layoutX="99.0" layoutY="281.0" prefHeight="21.0" prefWidth="49.0" text="Género:" />
+    <TextField layoutX="157.0" layoutY="281.0" prefWidth="84.0" />
+    <Label font="$x1" layoutX="418.0" layoutY="160.0" prefHeight="21.0" prefWidth="28.0" text="Año:" />
+    <TextField layoutX="446.0" layoutY="160.0" prefWidth="49.0" />
+    <Label font="$x1" layoutX="390.0" layoutY="241.0" prefHeight="22.0" prefWidth="103.0" text="Nro. existencias:" />
+    <TextField layoutX="491.0" layoutY="239.0" prefWidth="28.0" />
+    <Label font="$x1" layoutX="234.0" layoutY="200.0" prefHeight="21.0" prefWidth="49.0" text="Idioma:" />
+    <TextField layoutX="283.0" layoutY="199.0" prefWidth="84.0" />
+    <Label font="$x1" layoutX="103.0" layoutY="200.0" prefHeight="21.0" prefWidth="42.0" text="Precio:" />
+    <TextField layoutX="145.0" layoutY="199.0" prefWidth="63.0" />
+    <Label font="$x1" layoutX="99.0" layoutY="243.0" prefHeight="21.0" prefWidth="57.0" text="Director:" />
+    <TextField layoutX="157.0" layoutY="241.0" prefWidth="202.0" />
+    <Label font="$x1" layoutX="391.0" layoutY="200.0" prefHeight="21.0" prefWidth="63.0" text="Duración:" />
+    <TextField layoutX="460.0" layoutY="200.0" prefWidth="84.0" />
+    <Label font="$x1" layoutX="269.0" layoutY="280.0" prefHeight="22.0" prefWidth="79.0" text="Temporada:" />
+    <TextField layoutX="348.0" layoutY="281.0" prefWidth="28.0" />
+    <Label font="$x1" layoutX="391.0" layoutY="280.0" prefHeight="22.0" prefWidth="89.0" text="Nro. capítulos:" />
+    <TextField layoutX="481.0" layoutY="280.0" prefWidth="28.0" />
+    <ImageView id="logo" fitHeight="115.0" fitWidth="164.0" layoutX="21.0" layoutY="22.0" pickOnBounds="true">
+      <image>
+        <Image url="@ImagenesProyecto/logo.jpg" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <Label layoutX="185.0" layoutY="63.0" prefHeight="34.0" prefWidth="275.0" text="Resultados de la búsqueda">
+      <font>
+        <Font name="Cambria Math" size="24.0" />
+      </font>
+    </Label>
+  </children>
+</AnchorPane>
